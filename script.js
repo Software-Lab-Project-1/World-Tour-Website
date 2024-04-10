@@ -7,7 +7,7 @@ document.querySelector(".open-navbar-icon").addEventListener("click", () => {
   container.classList.add("change");
 });
 
-// Adds a click event listener to the HTML element with the class "close-navbar-icons"
+// Add a click event listener to the HTML element with the class "close-navbar-icons"
 // When clicked, it removes the class "change" fromM the container elements
 document.querySelector(".close-navbar-icon").addEventListener("click", () => {
   container.classList.remove("change");
