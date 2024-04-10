@@ -12,7 +12,7 @@ document.querySelector(".open-navbar-icon").addEventListener("click", () => {
 document.querySelector(".close-navbar-icon").addEventListener("click", () => {
   container.classList.remove("change");
 });
-// Defines an array of colors
+// Defines an array of color
 const colors = ["#6495ed", "#7fffd4", "#ffa07a", "#f08080", "#afeeee"];
 
 // Initializes a variable i with value 0
