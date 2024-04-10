@@ -1,7 +1,7 @@
 // Selects the HTML element with the class "container" and assign it to the variable containers
 const container = document.querySelector(".container");
 
-// Adds a click event listener to the HTML element with the class "open-navbar-icons"
+// add a click event listener to the HTML element with the class "open-navbar-icons"
 // When clicked, it adds the class "change" to the container element
 document.querySelector(".open-navbar-icon").addEventListener("click", () => {
   container.classList.add("change");
